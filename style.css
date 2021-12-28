@@ -1,0 +1,693 @@
+@font-face {
+	font-family: 'gardens';
+	src: local('gardens'),
+	     url('fonts/gardens.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'clickuper';
+	src: local('clickuper'),
+	     url('fonts/clickuper.ttf') format('truetype');
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    height: 50%;
+    width: 100%;
+    background-color: #d3d3d3;
+    margin: 0px;
+}
+
+.header-contact {
+    height: 800px;
+    width: 100%;
+    background-color: #d3d3d3;
+    margin: 0px;
+}
+
+
+.header {
+    display: flex;
+}
+
+.header-title {
+    font-family: 'gardens';
+    margin:0px;
+    padding-top: 20px;
+    font-size: 60px;
+    color: #838383;
+    justify-content: flex-start;
+}
+
+.head {
+    width: 100%;
+    margin: 0;
+}
+.links {
+    display: flex;
+    justify-content: flex-start; 
+    margin-left: auto;
+}
+
+.link {
+    text-decoration: none;
+    margin-top: 5px;
+    padding-left: 35px;
+}
+
+.divheader-title {
+
+}
+
+.title-link:hover {
+    color: #444444;
+    transition: .3s linear;
+}
+
+.title-link {
+    color: #838383;
+    font-family: 'gardens';
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-skills {
+    font-family: 'clickuper';
+    font-size: 55px;
+    color: #838383;
+}
+
+
+.header-image {
+    width: 400px;
+    height: 100%;
+}
+.header-image {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+    
+.header-image:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+section {
+    background-color: #838383;
+    width: 100%;
+    height: 500px;
+}
+
+.sect-img {
+    display: flex;
+}
+
+.div-title {
+    padding-top: 10px;
+}
+
+.section-title {
+    margin-top: 0px;
+    font-family: 'gardens';
+    font-size: 60px;
+    color: #d3d3d3;
+    text-align: center;
+}
+
+.div-image {
+    text-align: center;
+    width: 100%;
+}
+
+.section-image {
+  width: 22em;
+  height: 22em;
+  border: 1px solid white;
+  border-radius: 50%;
+  padding: 0.7em;  /* или padding: calc((100% - 100% / 1.4142) / 2);, где 100% = 10em — это значение width, а √2 ≈ 1.4142 */
+  box-sizing: border-box;
+  background-color: white;  /* чтобы padding не увеличивал ширину и высоту элемента */
+}
+
+.section-image {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+    
+.section-image:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.footer {
+    height: 50%;
+    width: 100%;
+    background-color: #d3d3d3;
+}
+
+.div-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vk {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mailru {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot-block {
+    display: block;
+    text-align: center;
+}
+
+.footer-title {
+    color: #838383;
+    font-family: 'gardens';
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+
+.contacts {
+    display: flex;
+}
+
+
+.footer-link {
+    color: #838383;
+    font-family: 'gardens';
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.alink {
+    text-decoration: none;
+}
+
+.price-title {
+
+}
+
+.price-title-price {
+    color: darkorange;
+    text-align: center;
+    font-family: 'gardens';
+    font-size: 50px;
+}
+
+.price-price {
+    font-family: 'gardens';
+    color: #838383;
+    font-size: 55px;
+    text-align: center;
+}
+
+.conditions {
+    height: 100%;
+    width: 100%;
+    background-color: #838383;
+}
+
+.condition-title {
+    text-align: center;
+    font-family: 'gardens';
+    color: #d3d3d3;
+    font-size: 40px;
+}
+
+.conditions h1:hover { color: darkorange; font-size: 45px;}
+.price-hover h1:hover { color: darkorange; font-size: 60px;}
+
+.contacts {
+    margin: 0 auto;
+}
+
+.imgvk {
+     width: 190px;
+     height: 100%;
+}
+
+.vk-img {
+    margin-left: 30px;
+}
+
+.imgvk {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+    
+.imgvk:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.mail-img {
+    margin-left: 800px;
+    margin-top: 25px;
+}
+
+.imgmail {
+    width: 70px;
+    height: 76px;
+}
+
+.imgmail {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+}
+    
+.imgmail:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.contactlink {
+    display: flex;
+}
+
+.textvk {
+    margin-left: 30px;
+}
+
+.textmail {
+    margin-left: 670px;
+}
+
+@media screen and (max-width : 1045px) {
+    header {
+        height: 50%;
+    }
+
+    .links {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .link {
+        text-decoration: none;
+        margin-top: 5px;
+    }
+
+    .title-link {
+        color: #838383;
+        font-family: 'gardens';
+        font-size: 30px;
+        font-weight: 100;
+    }
+
+    .mailru {
+        
+    }
+    .price-price {
+        font-family: 'gardens';
+        color: #838383;
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    .condition-title {
+        text-align: center;
+        font-family: 'gardens';
+        color: #d3d3d3;
+        font-size: 40px;
+    }
+    
+    .conditions h1:hover { color: darkorange; font-size: 45px;}
+    .price-hover h1:hover { color: darkorange; font-size: 50px;}
+
+    .mail-img {
+        margin-left: 500px;
+        margin-top: 25px;
+    }
+
+    .textmail {
+        margin-left: 400px;
+    }
+
+    .mailru-link {
+        margin-left: 190px;
+    }
+}
+
+@media screen and (max-width : 1024px) {
+
+    .title-skills {
+        font-family: 'clickuper';
+        font-size: 58px;
+        color: #838383;
+    }
+
+    .header-image {
+        width: 340px;
+        height: 100%;
+    }
+}    
+
+@media screen and (max-width : 987px) {
+    header {
+        height: 50%;
+    }
+
+    .title-skills {
+        font-family: 'clickuper';
+        font-size: 50px;
+        color: #838383;
+    }
+
+    .header-image {
+        width: 330px;
+        height: 100%;
+    }
+
+    .footer-link {
+        color: #838383;
+        font-family: 'gardens';
+        font-size: 35px;
+        font-weight: 400;
+        margin-top: 0px;
+    }
+
+    .mail-img {
+        margin-left: 500px;
+        margin-top: 25px;
+    }
+
+    .textmail {
+        margin-left: 300px;
+    }
+
+    .mailru-link {
+        margin-left: 190px;
+    }
+}    
+
+@media screen and (max-width : 860px) {
+    .header {
+        display: block;
+    }
+    .head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+    }
+    .header-title {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .divheader-title {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .links {
+        margin-left: 0%;
+        align-items: center;
+        justify-content: center;
+    }
+    .skills {
+        display: block;
+        text-align: center;
+    }
+
+    .sect-img {
+        display: flex;
+    }
+
+    .section-image {
+        width: 17em;
+        height: 17em;    
+    }
+    .vk {
+        width: 100%;
+    }
+    .mailru {
+        width: 100% 
+    }
+    .conditions {
+        height: 590px;
+        width: 100%;
+        background-color: #838383;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    
+    .header-contact {
+        height: 390px;
+        width: 100%;
+        background-color: #d3d3d3;
+        margin: 0px;
+    }
+    .header {
+        display: inline-block;
+    }
+    .links {
+        display: inline-block;
+        margin-left: 2px;
+        text-align: center;
+    }
+    
+    .link {
+        text-decoration: none;
+        margin-top: 1px;
+        padding-left: 5px;
+    }
+
+    .skills {
+        width: 97%;
+    }
+    
+    .header-title {
+        font-size: 50px;
+    }
+    .title-skills {
+        font-family: 'clickuper';
+        font-size: 20px;
+        color: #838383;
+    }
+    .header-image {
+        width: 200px;
+        height: 100%;
+    }
+    .header-image {
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+        
+    .header-image:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+    section {
+        background-color: #838383;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .div-title {
+        padding-top: 10px;
+    }
+    
+    .sect-img {
+        display: block;
+    }
+
+    .section-title {
+        margin-top: 0px;
+        font-family: 'gardens';
+        font-size: 60px;
+        color: #d3d3d3;
+        text-align: center;
+    }
+    
+    .div-image {
+        display: block; 
+        text-align: center; 
+    }
+    
+    .section-image {
+        height: 100%;
+        width: 300px;
+        margin-bottom: 3%;
+    }
+    
+    .section-image {
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+        
+    .section-image:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+    
+    .footer {
+        height: 350px;
+        width: 100%;
+        background-color: #d3d3d3;
+    }
+    
+    .div-footer {
+        display: block;
+    }
+    
+    .vk {
+        margin-left: 0px;
+    }
+    
+    .mailru {
+        margin-left: 0px;
+    }
+    
+    .footer-title {
+        color: #838383;
+        font-family: 'gardens';
+        font-size: 60px;
+        font-weight: 900;
+        margin-top: 0px;
+    }
+    
+    .contacts {
+        display: block;
+    }
+    
+    .vk-link {
+        margin-left: 0px;
+    }
+    
+    .mailru-link {
+        margin-left: 7px;
+    }
+    
+    .footer-link {
+        color: #838383;
+        font-family: 'gardens';
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 0px;
+    }
+    
+    .alink {
+        text-decoration: none;
+    }
+    
+    .price-title {
+    
+    }
+    
+    .price-title-price {
+        color: darkorange;
+        text-align: center;
+        font-family: 'gardens';
+        font-size: 50px;
+    }
+    
+    .price-price {
+        font-family: 'gardens';
+        color: #838383;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .condition-title {
+        text-align: center;
+        font-family: 'gardens';
+        color: #d3d3d3;
+        font-size: 40px;
+    }
+    
+    .conditions h1:hover { color: darkorange; font-size: 45px;}
+    .price-hover h1:hover { color: darkorange; font-size: 45px;}
+    
+    .contacts {
+        margin: 0 auto;
+    }
+    
+    .imgvk {
+         width: 190px;
+         height: 100%;
+    }
+    
+    .vk-img {
+        margin-left: 4px;
+    }
+    
+    .imgvk {
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+        
+    .imgvk:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+    .mail-img {
+        margin-left: 8px;
+        margin-top: 25px;
+    }
+    
+    .imgmail {
+        width: 70px;
+        height: 76px;
+    }
+    
+    .imgmail {
+        -moz-transition: all 1s ease-out;
+        -o-transition: all 1s ease-out;
+        -webkit-transition: all 1s ease-out;
+    }
+        
+    .imgmail:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+    }
+    
+    .contactlink {
+        display: block;
+    }
+    
+    .textvk {
+        margin-left: 3px;
+    }
+    
+    .textmail {
+        margin-left: 3px;
+    }
+}
